@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн Кав'ярня</title>
+</head>
+<body>
+    <header>
+        <h1>Онлайн Кав'ярня "Ксілокопа"</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Меню</a></li>
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Наше Меню</h2>
+            <p>Спробуйте найкращу каву в місті!</p>
+            <ul>
+                <li>Американо</li>
+                <li>Еспресо</li>
+                <li>Латте</li>
+            </ul>
+            <img src="coffee1.jpg" alt="Кава">
+        </section>
+
+        <section>
+            <h2>Спеціальні Пропозиції</h2>
+            <p>Смачні солодощі, щоб доповнити вашу каву:</p>
+            <table>
+                <tr>
+                    <th>Назва</th>
+                    <th>Ціна</th>
+                </tr>
+                <tr>
+                    <td>Медовий кекс</td>
+                    <td>30 грн</td>
+                </tr>
+                <tr>
+                    <td>Шоколадна випічка</td>
+                    <td>25 грн</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Контактна Інформація</h2>
+            <p>Зв'яжіться з нами:</p>
+            <address>
+                Адреса: вул. Кавова, 10, Київ<br>
+                Телефон: +380-99-123-4567<br>
+                Email: aroma@coffee.com
+            </address>
+        </section>
+
+        <section>
+            <h2>Замовлення</h2>
+            <form>
+                <label for="name">Ім'я:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="coffee">Вид кави:</label><br>
+                <select id="coffee" name="coffee">
+                    <option value="americano">Американо</option>
+                    <option value="espresso">Еспресо</option>
+                    <option value="latte">Латте</option>
+                </select><br>
+                <label for="quantity">Кількість:</label><br>
+                <input type="number" id="quantity" name="quantity" min="1" max="10"><br>
+                <input type="submit" value="Замовити">
+            </form>
+        </section>
+
+        <section>
+            <h2>Останні новини</h2>
+            <p>Найсвіжіші новини з кавового світу:</p>
+            <ol>
+                <li>Новий сорт кави в асортименті!</li>
+                <li>Знижка 20% на всі напої!</li>
+                <li>Відкриття нового кав'ярні в центрі міста!</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Онлайн Кав'ярня "Ксілокопа"</p>
+        <p><a href="https://www.facebook.com">Відвідайте нашу сторінку на Facebook</a></p>
+    </footer>
+</body>
+</html>
